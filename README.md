@@ -20,13 +20,13 @@
 
 <p align="center">
   <a href="">
-    <img src="./exhibition/teaser.gif" alt="Logo" width="100%">
+    <img src="./exhibition/teaser.gif" alt="Logo" width="90%">
   </a>
 </p>
 
 <p align="center">
   <a href="">
-    <img src="./exhibition/teaser.png" alt="Logo" width="100%">
+    <img src="./exhibition/teaser.png" alt="Logo" width="80%">
   </a>
 </p>
 
