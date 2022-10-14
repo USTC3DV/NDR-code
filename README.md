@@ -127,7 +127,7 @@ If you find our code or paper useful, please cite
 ```bibtex
 @inproceedings{Cai2022NDR,
   author    = {Hongrui Cai and Wanquan Feng and Xuetao Feng and Yan Wang and Juyong Zhang},
-  title     = {{Neural Surface Reconstruction of Dynamic Scenes with Monocular RGB-D Camera},
+  title     = {Neural Surface Reconstruction of Dynamic Scenes with Monocular RGB-D Camera},
   booktitle = {Thirty-sixth Conference on Neural Information Processing Systems (NeurIPS)},
   year      = {2022}
 }
