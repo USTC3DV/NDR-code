@@ -31,6 +31,23 @@
 </p>
 
 <p align="center">
-We propose Neural-DynamicReconstruction (NDR), a template-free method to recover high-fidelity geometry, motions and appearance of a dynamic scene from a monocular RGB-D camera.
+We propose Neural-DynamicReconstruction (NDR), a <b>template-free</b> method to recover high-fidelity geometry, motions and appearance of a <b>dynamic</b> scene from a <b>monocular</b> RGB-D camera.
 </p>
 <br>
+
+# Acknowledgements
+This project is built upon [NeuS](https://github.com/Totoro97/NeuS). Some code snippets are also borrowed from [IDR](https://github.com/lioryariv/idr) and [NeRF-pytorch](https://github.com/yenchenlin/nerf-pytorch). The evaluation code for geometry rendering is borrowed from [StereoPIFu_Code](https://github.com/CrisHY1995/StereoPIFu_Code). Thanks for these great projects. We thank all the authors for their great work and repos.
+
+# Contact
+If you have questions, please contact [Hongrui Cai](https://rainbowrui.github.io/).
+
+# Citation
+If you find our code or paper useful, please cite
+```bibtex
+@article{cai2022neural,
+  author    = {Cai, Hongrui and Feng, Wanquan and Feng, Xuetao and Wang, Yan and Zhang, Juyong},
+  title     = {Neural Surface Reconstruction of Dynamic Scenes with Monocular RGB-D Camera},
+  journal   = {Thirty-sixth Conference on Neural Information Processing Systems (NeurIPS)},
+  year      = {2022},
+}
+```
