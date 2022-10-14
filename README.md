@@ -40,7 +40,7 @@ We propose Neural-DynamicReconstruction (NDR), a <b>template-free</b> method to 
 ## Usage
 
 ### Data Convention
-The data is organized as [NeuS](https://github.com/Totoro97/NeuS#data-convention):
+The data is organized as [NeuS](https://github.com/Totoro97/NeuS#data-convention)
 
 ```
 <case_name>
@@ -64,7 +64,7 @@ You can download a part of pre-processed [KillingFusion](https://campar.in.tum.d
 <b><i>Important Tips:</i></b> If the pre-processed data is useful, please cite the related paper(s) and strictly abide by related open source license(s).
 
 ### Setup
-Clone this repository
+Clone this repository and create the environment (please notice CUDA version)
 ```shell
 git clone https://github.com/USTC3DV/NDR-code.git
 cd NDR-code
@@ -90,7 +90,7 @@ conda activate ndr
 python train_eval.py
 ```
 
-- **Evaluating pretrained model**
+- **Evaluating pre-trained model**
 ```shell
 python pretrained_eval.py
 ```
@@ -108,7 +108,7 @@ Coming Soon
 - [ ] Code of Data Pre-processing
 - [ ] Code of Geometry Projection
 - [x] Pre-trained Models and Evaluation Code
-- [x] Traing Code
+- [x] Training Code
 
 
 
@@ -132,3 +132,5 @@ If you find our code or paper useful, please cite
   year      = {2022},
 }
 ```
+
+If you find our pre-processed data useful, please cite the related paper(s) and strictly abide by related open-source license(s).
