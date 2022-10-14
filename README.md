@@ -35,11 +35,78 @@ We propose Neural-DynamicReconstruction (NDR), a <b>template-free</b> method to 
 </p>
 <br>
 
+
+
+# Usage
+
+## Data Convention
+The data is organized as [NeuS](https://github.com/Totoro97/NeuS#data-convention):
+
+```
+<case_name>
+|-- cameras_xxx.npz    # camera parameters
+|-- depth
+    |-- # target depth for each view
+    ...
+|-- image
+    |-- # target RGB each view
+    ...
+|-- mask
+    |-- # target mask each view (For unmasked setting, set all pixels as 255)
+    ...
+```
+
+Here the `cameras_xxx.npz` follows the data format in [IDR](https://github.com/lioryariv/idr/blob/main/DATA_CONVENTION.md), where `world_mat_xx` denotes the world to image projection matrix, and `scale_mat_xx` denotes the normalization matrix.
+
+## Pre-processed Data
+You can download the pre-processed data [here](https://drive.google.com/file/d/13-_EZF_HYMTYNX6KS9r_h10BvnQ1FkhX/view?usp=sharing) and unzip it into `./`.
+
+## Setup
+Clone this repository
+```shell
+git clone https://github.com/USTC3DV/NDR-code.git
+cd NDR-code
+conda env create -f environment.yml
+conda activate ndr
+```
+
+<details>
+  <summary> Dependencies (click to expand) </summary>
+
+  - torch==1.8.0
+  - opencv_python==4.5.2.52
+  - trimesh==3.9.8 
+  - numpy==1.21.2
+  - scipy==1.7.0
+  - PyMCubes==0.1.2
+
+</details>
+
+## Running
+- **Training**
+```shell
+python train_eval.py
+```
+
+- **Evaluating pretrained model**
+```shell
+python pretrained_eval.py
+```
+
+## Data Pre-processing
+Coming Soon
+
+
+
 # Acknowledgements
 This project is built upon [NeuS](https://github.com/Totoro97/NeuS). Some code snippets are also borrowed from [IDR](https://github.com/lioryariv/idr) and [NeRF-pytorch](https://github.com/yenchenlin/nerf-pytorch). The pre-processing code for camera pose initialization is borrowed from [Fast-Robust-ICP](https://github.com/yaoyx689/Fast-Robust-ICP). The evaluation code for geometry rendering is borrowed from [StereoPIFu_Code](https://github.com/CrisHY1995/StereoPIFu_Code). Thanks for these great projects. We thank all the authors for their great work and repos.
 
+
+
 # Contact
 If you have questions, please contact [Hongrui Cai](https://rainbowrui.github.io/).
+
+
 
 # Citation
 If you find our code or paper useful, please cite
