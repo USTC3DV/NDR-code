@@ -44,7 +44,7 @@ The data is organized as [NeuS](https://github.com/Totoro97/NeuS#data-convention
 
 ```
 <case_name>
-|-- cameras_xxx.npz    # camera parameters
+|-- cameras_sphere.npz    # camera parameters
 |-- depth
     |-- # target depth for each view
     ...
@@ -56,12 +56,12 @@ The data is organized as [NeuS](https://github.com/Totoro97/NeuS#data-convention
     ...
 ```
 
-Here the `cameras_xxx.npz` follows the data format in [IDR](https://github.com/lioryariv/idr/blob/main/DATA_CONVENTION.md), where `world_mat_xx` denotes the world to image projection matrix, and `scale_mat_xx` denotes the normalization matrix.
+Here `cameras_sphere.npz` follows the data format in [IDR](https://github.com/lioryariv/idr/blob/main/DATA_CONVENTION.md), where `world_mat_xx` denotes the world-to-image projection matrix, and `scale_mat_xx` denotes the normalization matrix.
 
 ### Pre-processed Data
 You can download a part of pre-processed [KillingFusion](https://campar.in.tum.de/personal/slavcheva/deformable-dataset/index.html) data [here](https://drive.google.com/file/d/1wQ4yB7r-a8sFkwB6bEJIDp14AhjG8g_B/view?usp=sharing) and unzip it into `./`.
 
-<b><i>Important Tips:</i></b> If the pre-processed data is useful, please cite the related paper(s) and strictly abide by related open source license(s).
+<b><i>Important Tips:</i></b> If the pre-processed data is useful, please cite the related paper(s) and strictly abide by related open-source license(s).
 
 ### Setup
 Clone this repository and create the environment (please notice CUDA version)
