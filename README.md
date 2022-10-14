@@ -37,9 +37,9 @@ We propose Neural-DynamicReconstruction (NDR), a <b>template-free</b> method to 
 
 
 
-# Usage
+## Usage
 
-## Data Convention
+### Data Convention
 The data is organized as [NeuS](https://github.com/Totoro97/NeuS#data-convention):
 
 ```
@@ -58,10 +58,10 @@ The data is organized as [NeuS](https://github.com/Totoro97/NeuS#data-convention
 
 Here the `cameras_xxx.npz` follows the data format in [IDR](https://github.com/lioryariv/idr/blob/main/DATA_CONVENTION.md), where `world_mat_xx` denotes the world to image projection matrix, and `scale_mat_xx` denotes the normalization matrix.
 
-## Pre-processed Data
+### Pre-processed Data
 You can download the pre-processed data [here](https://drive.google.com/file/d/13-_EZF_HYMTYNX6KS9r_h10BvnQ1FkhX/view?usp=sharing) and unzip it into `./`.
 
-## Setup
+### Setup
 Clone this repository
 ```shell
 git clone https://github.com/USTC3DV/NDR-code.git
@@ -82,7 +82,7 @@ conda activate ndr
 
 </details>
 
-## Running
+### Running
 - **Training**
 ```shell
 python train_eval.py
@@ -93,22 +93,22 @@ python train_eval.py
 python pretrained_eval.py
 ```
 
-## Data Pre-processing
+### Data Pre-processing
 Coming Soon
 
 
 
-# Acknowledgements
+## Acknowledgements
 This project is built upon [NeuS](https://github.com/Totoro97/NeuS). Some code snippets are also borrowed from [IDR](https://github.com/lioryariv/idr) and [NeRF-pytorch](https://github.com/yenchenlin/nerf-pytorch). The pre-processing code for camera pose initialization is borrowed from [Fast-Robust-ICP](https://github.com/yaoyx689/Fast-Robust-ICP). The evaluation code for geometry rendering is borrowed from [StereoPIFu_Code](https://github.com/CrisHY1995/StereoPIFu_Code). Thanks for these great projects. We thank all the authors for their great work and repos.
 
 
 
-# Contact
+## Contact
 If you have questions, please contact [Hongrui Cai](https://rainbowrui.github.io/).
 
 
 
-# Citation
+## Citation
 If you find our code or paper useful, please cite
 ```bibtex
 @article{cai2022neural,
