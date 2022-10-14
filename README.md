@@ -59,7 +59,9 @@ The data is organized as [NeuS](https://github.com/Totoro97/NeuS#data-convention
 Here the `cameras_xxx.npz` follows the data format in [IDR](https://github.com/lioryariv/idr/blob/main/DATA_CONVENTION.md), where `world_mat_xx` denotes the world to image projection matrix, and `scale_mat_xx` denotes the normalization matrix.
 
 ### Pre-processed Data
-You can download the pre-processed data [here](https://drive.google.com/file/d/13-_EZF_HYMTYNX6KS9r_h10BvnQ1FkhX/view?usp=sharing) and unzip it into `./`.
+You can download a part of pre-processed [KillingFusion](https://campar.in.tum.de/personal/slavcheva/deformable-dataset/index.html) data [here](https://drive.google.com/file/d/1wQ4yB7r-a8sFkwB6bEJIDp14AhjG8g_B/view?usp=sharing) and unzip it into `./`.
+
+<b><i>Important Tips:</i></b> If the pre-processed data is useful, please cite the related paper(s) and strictly abide by related open source license(s).
 
 ### Setup
 Clone this repository
@@ -95,6 +97,18 @@ python pretrained_eval.py
 
 ### Data Pre-processing
 Coming Soon
+
+### Geometric Projection
+Coming Soon
+
+
+
+## Todo List
+- [ ] More Pre-processed Data
+- [ ] Code of Data Pre-processing
+- [ ] Code of Geometry Projection
+- [x] Pre-trained Models and Evaluation Code
+- [x] Traing Code
 
 
 
