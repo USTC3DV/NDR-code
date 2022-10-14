@@ -125,11 +125,11 @@ If you have questions, please contact [Hongrui Cai](https://rainbowrui.github.io
 ## Citation
 If you find our code or paper useful, please cite
 ```bibtex
-@article{cai2022neural,
-  title     = {Neural Surface Reconstruction of Dynamic Scenes with Monocular RGB-D Camera},
+@inproceedings{Cai2022NDR,
   author    = {Cai, Hongrui and Feng, Wanquan and Feng, Xuetao and Wang, Yan and Zhang, Juyong},
-  journal   = {Thirty-sixth Conference on Neural Information Processing Systems (NeurIPS)},
-  year      = {2022},
+  title     = {{Neural Surface Reconstruction of Dynamic Scenes with Monocular RGB-D Camera},
+  booktitle = {Thirty-sixth Conference on Neural Information Processing Systems (NeurIPS)},
+  year      = {2022}
 }
 ```
 
