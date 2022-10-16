@@ -99,14 +99,23 @@ python pretrained_eval.py
 Coming Soon
 
 ### Geometric Projection
-Coming Soon
+- **Compile renderer**
+```shell
+cd renderer && bash build.sh && cd ..
+```
+
+- **Render meshes**
+Input path of original data, path of results, and iteration number. For example:
+```shell
+python geo_render.py ./datasets/kfusion_frog/ ./exp/kfusion_frog/result/ 120000
+```
 
 
 
 ## Todo List
 - [ ] More Pre-processed Data
 - [ ] Code of Data Pre-processing
-- [ ] Code of Geometry Projection
+- [x] Code of Geometric Projection
 - [x] Pre-trained Models and Evaluation Code
 - [x] Training Code
 
