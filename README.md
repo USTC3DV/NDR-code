@@ -110,7 +110,7 @@ Input path of original data, path of results, and iteration number, e.g.
 ```shell
 python geo_render.py ./datasets/kfusion_frog/ ./exp/kfusion_frog/result/ 120000
 ```
-
+The rendered results will be put in dir ```[path_of_results]/validations_geo/```
 
 
 ## Todo List
