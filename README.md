@@ -96,7 +96,7 @@ python pretrained_eval.py
 ```
 
 ### Data Pre-processing
-Coming Soon
+To prepare your own data for experiments, please refer to [pose initialization](./pose_initialization/README.md).
 
 ### Geometric Projection
 - **Compiling renderer**
@@ -114,8 +114,8 @@ The rendered results will be put in dir ```[path_of_results]/validations_geo/```
 
 
 ## Todo List
-- [ ] More Pre-processed Data
-- [ ] Code of Data Pre-processing
+- [x] Configure Files for [DeepDeform](https://github.com/AljazBozic/DeepDeform) Human Sequences and [KillingFusion](https://campar.in.tum.de/personal/slavcheva/deformable-dataset/index.html)
+- [x] Code of Data Pre-processing
 - [x] Code of Geometric Projection
 - [x] Pre-trained Models and Evaluation Code
 - [x] Training Code
