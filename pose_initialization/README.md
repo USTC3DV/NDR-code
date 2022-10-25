@@ -27,7 +27,7 @@ python step1.py --depth_scale 1000. --data_path '../datasets/kfusion_frog/' --re
 
 <p align="center">
   <a href="">
-    <img src="./files/scaled_depth.png" alt="Logo" width="80%">
+    <img src="./files/scaled_depth.png" alt="Logo" width="50%">
   </a>
 </p>
 
