@@ -13,7 +13,7 @@
     <a href="http://staff.ustc.edu.cn/~juyong/">Juyong Zhang</a>
 
   </p>
-  <h2 align="center">NeurIPS 2022</h2>
+  <h2 align="center">NeurIPS 2022 (Spotlight)</h2>
   <h3 align="center"><a href="https://arxiv.org/pdf/2206.15258.pdf">Paper</a> | <a href="https://ustc3dv.github.io/ndr/">Project Page</a> | <a href="https://openreview.net/forum?id=8RKJj1YDBJT">OpenReview</a> | <a href="https://rainbowrui.github.io/data/NDR_poster.pdf">Poster</a></h3>
   <div align="center"></div>
 </p>
