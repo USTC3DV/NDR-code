@@ -87,7 +87,7 @@ if __name__ == '__main__':
     rigid_registrate = args.rigid_registrate
     registration_alg_path = args.registration_alg_path
     
-    if os.path.exists(data_path+'intrinsics.txt'):
+    if not os.path.exists(data_path+'intrinsics.txt'):
         print('Do not find intrinsic.txt')
         exit()
     intrinsic_matrix = np.loadtxt(data_path+'intrinsics.txt')
