@@ -4,7 +4,7 @@
   <p align="center">
     <a href="https://rainbowrui.github.io/">Hongrui Cai</a>
     ·
-    <a href="https://github.com/WanquanF">Wanquan Feng</a>
+    <a href="https://wanquanf.github.io/">Wanquan Feng</a>
     ·
     <a href="https://scholar.google.com/citations?hl=en&user=5G-2EFcAAAAJ">Xuetao Feng</a>
     ·
